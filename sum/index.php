@@ -9,8 +9,8 @@
 
 <body>
     <form action="verify.php" method="POST">
-        <input type="text" name="first_value">
-        <input type="text" name="second_value">
+        <input type="number" name="first_value">
+        <input type="number" name="second_value">
         <input type="submit" value="Confirm">
     </form>
 </body>
