@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 2em;
+    background-color: #1a203a;
+}
+
+.main {
+    color: white;
+    width: 50%;
+    /* min-width: ; */
+    height: 90%;
+    /* min-height: ; */
+}
+
+.title {
+    padding: 2.5em;
+    background-color: #252b49;
+    border-color: #232744;
+    border-radius: 2em;
+    box-shadow: 0 0 0 0.45em #232744;
+    text-align: center;
+}
+
+.pink_style {
+    color: #b5426d;
+    font-size: 4em;
+}
+
+.white_style {
+    color: #f0f8ff;
+    font-size: 4em;
+}
+
+.acqua_style {
+    color: #6ae8d4;
+    font-size: 2.5em;
+}
+
+.activities {
+    background-color: aliceblue;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 10px;
+
+}
