@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -8,6 +7,9 @@ body::-webkit-scrollbar {
 }
 
 body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     margin: 2em;
     background-color: #1a203a;
 }
@@ -20,10 +22,14 @@ body {
     /* min-height: ; */
 }
 
+.titles {
+    max-width: 100%;
+
+}
+
 .title {
-    padding: 2em;
+    padding: 2vh;
     background-color: #252b49;
-    border-color: #232744;
     border-radius: 2em;
     box-shadow: 0 0 0 1em #232744;
     text-align: center;
@@ -46,7 +52,7 @@ body {
 
 .activities {
     width: max-content;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     display: grid;
 
 }
