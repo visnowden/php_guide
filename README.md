@@ -1,3 +1,3 @@
-# first_php
+# PHP
 
  First PHP classes
