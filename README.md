@@ -1,3 +1,3 @@
 # PHP
 
-First PHP classes on SENAI
+Firsts PHP classes on SENAI
