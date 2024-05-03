@@ -15,7 +15,7 @@
                 <br>
                 <input type="number" name="rating" placeholder="Enter the movie  rating">
                 <br>
-                <textarea name="synopsis" placeholder="Enter the movie synopsis" cols="100" rows="10"></textarea>
+                <textarea name="synopsis" placeholder="Enter the movie synopsis" cols="80" rows="10"></textarea>
                 <br>
                 <input type="date" name="launch_date" placeholder="Enter the movie lauch date">
                 <br>
@@ -23,17 +23,7 @@
                 <br>
                 <input type="text" name="director" placeholder="Enter the movie director">
                 <br>
-                <?php
-                if (isset ($_POST['message'])) {
-                    echo $_POST['message'];
-
-                    unset($_POST['message']);
-                } else {
-                    echo 'visnowden';
-                }
-                echo '<br>';
-                ?>
-                <input type="submit" value="Sign up">
+                <input type="submit" value="Register">
             </form>
         </div>
     </center>
