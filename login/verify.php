@@ -1,3 +1,3 @@
 <?php
-echo "Hello ", $_POST["login"]
+  echo "Hello ", $_POST["login"]
 ?>
