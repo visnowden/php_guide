@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        $date = date("Y-m-d");
+        echo(date("Y"));
+        echo(date("Y")) - 2;
+        echo(date("Y")) - "2";
+
+        echo($date);
+
+
+    ?>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -39,4 +60,4 @@
     </div>
 </body>
 
-</html>
+</html> -->
